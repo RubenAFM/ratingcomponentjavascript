@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo/normalize.css">
+  <link rel="stylesheet" href="estilo/estilo.css">
+
+
+</head>
+<body>
+  <main>
+    <section class="before-rating">
+      <picture>
+        <img src="images/icon-star.svg" alt="img-icon-star" class="img-star">
+      </picture>
+      <h1>
+        How did we do?
+      </h1>
+      <p class="first__paragraph"> 
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <div class="button__container">
+          <!-- Rating state start -->
+          <button class="button__1__to__5" id="1">1</button>
+          <button class="button__1__to__5" id="2">2</button>
+          <button class="button__1__to__5" id="3">3</button>
+          <button class="button__1__to__5" id="4">4</button>
+          <button class="button__1__to__5" id="5">5</button>
+      </div>
+      <button class="button__submit" id="submit">
+        Submit
+      </button>
+    </section>    
+    
+    <section class="after-rating">
+      <figure>
+        <img src="images/illustration-thank-you.svg" alt="image-illustration" class="img-illustration">
+      </figure>
+       <!-- Rating state end -->
+     <p class="result__rating">
+      You selected <!-- Add rating here --> out of 5     
+     </p>     
+     <h2>
+        <!-- Thank you state start -->
+          Thank you!
+     </h2>
+     <p class="second__paragraph">
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!    
+      <!-- Thank you state end -->
+     </p>
+    </section>
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/RubenAFM">Alejandr0.dev</a>.
+
+  </footer> 
+  <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+/* ----------------------------- general settings ------------------------------------- */
+
+:root {
+
+    /* Primary */
+    --orange: hsl(25, 97%, 53%);
+
+    
+    /* Neutral */
+
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --dark-blue-matizado: hsl(210,19%,18%);
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;    
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: var(--dark-blue);
+    max-width: 350px;
+    border-radius: 10px;
+    padding: 1rem 2rem 1rem 2rem;    
+}
+
+
+/* ------------------------- before rating ------------------------------------------*/
+
+/* display */ 
+
+
+
+/* icon star */
+
+.img-star {
+    background-color: hsl(210, 10%, 15%);
+    padding: 0.6rem;
+    border-radius: 50%;
+    max-width: 35px;    
+}
+
+/* title */
+
+h1 {
+    font-size: 24px;
+    color: var(--white);
+}
+
+/* paragraph */
+
+.first__paragraph {
+    color: var(--light-grey);
+}
+
+/* button 1 to 5 */
+
+button {
+    all: unset; /* For all buttons includes submitt */
+}
+
+.button__1__to__5 {
+
+    background-color: hsl(210, 10%, 15%);
+    padding: 1rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    text-align: center;
+    color: var(--light-grey);
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+/* button submit */
+
+.button__submit {
+    width: 100%;
+    background-color: var(--orange);
+    text-align: center;
+    padding: 0.8rem 0rem 0.8rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;    
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+
+/* footer */
+
+footer {
+    background-color: var(--light-grey);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* hover style */ 
+
+.button__1__to__5:hover, .button__submit:hover {
+    background: var(--white);
+    color: #000000;
+    cursor: pointer;
+}
+
+/*------------------------------------ after rating---------------------------------------- */
+
+/* display */
+
+.after-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+/* result rating */
+
+.result__rating {
+    background-color: hsl(210, 10%, 15%);
+    border-radius: 20px;
+    padding: 0.4rem 1rem 0.4rem 1rem;    
+    text-align: center;
+    color: var(--orange);
+    font-size: 12px;
+    margin: 0rem;   
+}
+
+/* title after rating */
+
+h2 {
+    font-size: 24px;
+    color: var(--white);
+}
+
+/* paragraph after rating */
+
+.second__paragraph {
+    color: var(--light-grey);
+    font-size: 12px;
+    margin: 0rem;
+    text-align: center;
+}
+
+/* button clicked */
+
+.button__clicked {
+    background: var(--white);
+    color: #000000;
+    cursor: pointer;
+}
+    
+
+
+
+
